@@ -22,7 +22,7 @@ const Page = () => {
   };
   return (
     <main className="relative flex justify-between items-center h-full flex-col md:flex-row">
-      <Link href={'/pages/hospitality'} className="w-full h-screen">
+      <Link href={'/pages/hospitality'} className="w-full h-[80vh]">
         <section className="relative h-full cursor-pointer isolate hover:after:hidden after:content-[''] after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0 after:bg-black-50%">
           <Image
             className="relative block max-w-full h-full object-cover"
@@ -96,7 +96,7 @@ const Page = () => {
           </div>
         </section>
       </Link>
-      <Link href={'/pages/home'} className="w-full h-screen">
+      <Link href={'/pages/home'} className="w-full h-[80vh]">
         <section className="relative h-full cursor-pointer isolate hover:after:hidden after:content-[''] after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0 after:bg-black-50%">
           <Image
             className="inline max-w-full h-full object-cover"

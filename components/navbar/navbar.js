@@ -96,18 +96,20 @@ const Navbar = () => {
           } fixed top-0 left-0 right-0 overflow-y-auto bg-black py-7`}
         >
           <div className="container-fluid flex flex-col">
-            <Image
-              src={CloseIcon}
-              alt="Close Icon"
-              className="inline-block self-end cursor-pointer"
-              width={40}
-              onClick={() => {
-                setToggleNav(false);
-              }}
-            />
+            <div className="fixed top-0 right-3 left-3 inline-flex justify-end items-center bg-black h-20 z-10">
+              <Image
+                src={CloseIcon}
+                alt="Close Icon"
+                className="inline-block cursor-pointer"
+                width={40}
+                onClick={() => {
+                  setToggleNav(false);
+                }}
+              />
+            </div>
 
             <form>
-              <div className="flex justify-between items-center gap-1 bg-white w-[95%] h-11 rounded-[2.5rem] p-2 mt-10 mx-auto">
+              <div className="flex justify-between items-center gap-1 bg-white w-[95%] h-11 rounded-[2.5rem] p-2 mt-20 mx-auto">
                 <label htmlFor="search" className="flex-shrink-0">
                   <Image
                     src={SearchDarkIcon}
