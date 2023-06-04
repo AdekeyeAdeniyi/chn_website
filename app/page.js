@@ -21,8 +21,8 @@ const Page = () => {
     window.open(value, '_blank');
   };
   return (
-    <main className="relative flex justify-between items-center h-full md:h-screen flex-col md:flex-row">
-      <Link href={'/pages/hospitality'} className="w-full h-full">
+    <main className="relative flex justify-between items-center h-full flex-col md:flex-row">
+      <Link href={'/pages/hospitality'} className="w-full h-screen">
         <section className="relative h-full cursor-pointer isolate hover:after:hidden after:content-[''] after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0 after:bg-black-50%">
           <Image
             className="relative block max-w-full h-full object-cover"
@@ -31,7 +31,7 @@ const Page = () => {
             priority
           />
           <div className="absolute bottom-6 left-0 text-white px-6 z-10 md:top-0 md:bottom-auto md:left-0 md:ml-10 md:px-0 md:mt-12">
-            <h1 className="text-[40px] font-medium"> Hospitality </h1>
+            <h1 className="text-[2.5rem] font-medium"> Hospitality </h1>
             <p className="text-base font-normal md:w-[32ch] md:text-xl">
               Certified sustainable hotel amenities and accessories
             </p>
@@ -96,7 +96,7 @@ const Page = () => {
           </div>
         </section>
       </Link>
-      <Link href={'/pages/home'} className="w-full h-full">
+      <Link href={'/pages/home'} className="w-full h-screen">
         <section className="relative h-full cursor-pointer isolate hover:after:hidden after:content-[''] after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0 after:bg-black-50%">
           <Image
             className="inline max-w-full h-full object-cover"
@@ -105,7 +105,7 @@ const Page = () => {
             priority
           />
           <div className="absolute bottom-6 left-0 text-white px-6 z-10 md:top-0 md:bottom-auto md:left-0 md:ml-10 md:px-0 md:mt-12">
-            <h1 className="text-[40px] font-medium"> Home </h1>
+            <h1 className="text-[2.5rem] font-medium"> Home </h1>
             <p className="text-base font-normal md:w-[32ch] md:text-xl">
               Innovative personal care
             </p>

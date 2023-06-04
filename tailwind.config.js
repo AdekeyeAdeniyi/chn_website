@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         'black-50%': 'rgba(0, 0, 0, 0.5)',
         'black-70%': '#1c1c1c',
+        'green-20%': '#dffe91',
+        'gray-40%': '#474747',
+        'gray-50%': '#818181',
       },
 
       backgroundImage: {
